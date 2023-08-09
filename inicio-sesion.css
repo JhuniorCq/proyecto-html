@@ -59,6 +59,7 @@ body {
 
 #contenedor {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #contenedor-form {
@@ -86,7 +87,7 @@ input {
     margin-left: 10px;
 }
 
-#boton-registrar {
+#boton-iniciar-sesion {
     border-radius: 10px;
     border-style: solid;
     padding: 13px;
@@ -96,13 +97,15 @@ input {
     color: #FFF;
 }
 
-#boton-registrar:hover {
+#boton-iniciar-sesion:hover {
     background-color: black;
     color:#FFF;
     border-style: solid;
 }
 
-
+#gato-inicio-sesion {
+    width: 500px;
+}
 
 
 

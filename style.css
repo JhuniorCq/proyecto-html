@@ -45,7 +45,7 @@ body {
     border-color: #C0C0C0;
     border-radius: 20px;
     background-color: #FFF;
-    padding: 30px;
+    padding: 30px 30px 40px 30px;
 }
 
 #menu h1 {
@@ -63,22 +63,17 @@ body {
 
 .boton {
     border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 15px;
     background-color: #333;
     color: #FFF;
+    font-size: 18px;
+    font-family: 'Borel', cursive;
 }
 
 .boton:hover {
     background-color: black;
 }
-
-button {
-    font-size: 18px;
-    font-family: 'Borel', cursive;
-}
-
-
 
 
 /*De acá para abajo*/
