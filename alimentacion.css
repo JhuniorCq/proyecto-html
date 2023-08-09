@@ -58,16 +58,15 @@ body {
 /*De acá para arriba*/
 
 #contenedor {
+    text-align: center;
     max-width: 100%;
     margin: 0 auto;
     padding: 60px;
 }
 
 #contenedor h1 {
-    text-align: center;
     color: #FF69B4;
 }
-
 
 #gato-comiendo {
     display: block;
@@ -79,6 +78,10 @@ body {
     display: block;
     margin: 0 auto 50px auto;
     width: 300px;
+}
+
+#no-comer h2 {
+    color: #723185;
 }
 
 .imagen {
