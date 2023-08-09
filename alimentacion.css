@@ -57,12 +57,35 @@ body {
 
 /*De acá para arriba*/
 
+#contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+#contenedor h1 {
+    text-align: center;
+    color: #FF69B4;
+}
 
 
+#gato-comiendo {
+    display: block;
+    margin: 0 auto 50px auto;
+    width: 230px;
+}
 
+#gato-comiendo-carne {
+    display: block;
+    margin: 0 auto 50px auto;
+    width: 300px;
+}
 
-
-
+.imagen {
+    display: block;
+    margin: 30px auto 50px auto;
+    width: 500px;
+}
 
 /*De acá para abajo*/
 .linea-separadora {
