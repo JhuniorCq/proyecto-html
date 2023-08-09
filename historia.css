@@ -61,13 +61,14 @@ body {
 #contenedor {
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 60px;
 }
 
 #indice {
     display: inline-block;
     border-width: 1px;
     border-style: solid;
+    border-radius: 30px;
     padding: 20px;
     background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
 }
@@ -81,19 +82,28 @@ body {
     text-align: center;
 }
 
+#presentacion h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    color: #FF69B4;
+}
+
 #gato-historia {
-    width: 150px;
+    width: 200px;
+}
+
+.titulo {
+    color: #723185;
 }
 
 #parrafo {
-    font-size: 16px;
     line-height: 1.5;/*Determina el tamaño del interlineado dentro de un elemento*/
     margin-bottom: 10px;
 }
 
 .imagen {
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 30px auto;
     width: 500px;
     border-style: solid;
     border-width: 1px;
