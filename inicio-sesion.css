@@ -34,7 +34,16 @@ body {
     text-decoration: none;/*Elimina decoraciones predeterminadas, como subrayados, líneas sobre el texto y efectos de tachado. (Se suele usar en los elementos <a></a>)*/
 }
 
+#contenedor-logo {
+    background-color: #333;
+}
+
+#contenedor-logo:hover{
+    background-color: #111;
+}
+
 #logo {
+    padding: 14px 16px;
     width: 150px;
 }
 
@@ -47,6 +56,52 @@ body {
 }
 
 /*De acá para arriba*/
+
+#contenedor {
+    text-align: center;
+}
+
+#contenedor-form {
+    
+    display: inline-block;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 18px;
+    background-color: #FFF;
+    padding: 0 30px 30px 30px;
+    margin: 50px 0;
+}
+
+#contenedor-form h1 {
+    border-bottom: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+}
+
+input {
+    font-family: 'Borel', cursive;
+    padding: 6px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 10px;
+}
+
+#boton-registrar {
+    border-radius: 10px;
+    border-style: solid;
+    padding: 13px;
+    font-family: 'Borel', cursive;
+    font-size: 16px;
+    background-color: #333;
+    color: #FFF;
+}
+
+#boton-registrar:hover {
+    background-color: black;
+    color:#FFF;
+    border-style: solid;
+}
+
 
 
 
@@ -69,5 +124,5 @@ footer {
 }
 
 footer p {
-    margin-top: 30px;
+    margin: 31px;
 }

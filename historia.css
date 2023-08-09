@@ -34,7 +34,16 @@ body {
     text-decoration: none;/*Elimina decoraciones predeterminadas, como subrayados, líneas sobre el texto y efectos de tachado. (Se suele usar en los elementos <a></a>)*/
 }
 
+#contenedor-logo {
+    background-color: #333;
+}
+
+#contenedor-logo:hover{
+    background-color: #111;
+}
+
 #logo {
+    padding: 14px 16px;
     width: 150px;
 }
 
@@ -106,5 +115,5 @@ footer {
 }
 
 footer p {
-    margin-top: 30px;
+    margin: 31px;
 }

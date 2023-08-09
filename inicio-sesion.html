@@ -9,9 +9,12 @@
     </head>
     <body>
         <header id="encabezado">
+            <div id="contenedor-logo">
+                <a href="index.html"><img src="assets/imagenes/logo.png" alt="Logo" id="logo"></a>
+            </div>
+            <hr class="linea-separadora">
             <nav>
                 <ul>
-                    <li><a href="index.html"><img src="assets/imagenes/logo.png" alt="Logo" id="logo"></a></li>
                     <li><a href="historia.html" >Historia</a></li>
                     <li><a href="#">Características</a></li>
                     <li><a href="razas.html">Razas</a></li>
@@ -23,13 +26,39 @@
                 </ul>
             </nav>
         </header>
-        <hr class="linea-separadora">
-        <main>
 
-        </main>
         <hr class="linea-separadora">
+
+        <main>
+            <div id="contenedor">           
+
+                <div id="contenedor-form">
+
+                    <h1>INICIO DE SESIÓN</h1>
+                    
+                    <form action="" method="get">
+
+                        <label for="correo">Correo: </label>
+                        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required><br><br>
+    
+                        <label for="contra">Contraseña: </label>
+                        <input id="contra" type="password" name="password" placeholder="Ingrese su contraseña" minlength="5" required><br><br>
+    
+                        <button id="boton-registrar" type="submit">Iniciar Sesión</button>
+        
+                    </form>
+                </div>
+                
+                <div>
+                    <img>
+                </div>
+            </div>
+        </main>
+
+        <hr class="linea-separadora">
+
         <footer>
-            <p>Derechos reservador &copy; 2023 "MIAU ASÍ ES"</p>
+            <p>Derechos reservados &copy; 2023 "MIAU ASÍ ES"</p>
         </footer>
     </body>
 </html>

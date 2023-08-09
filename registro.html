@@ -7,9 +7,12 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <body>
         <header id="encabezado">
+            <div id="contenedor-logo">
+                <a href="index.html"><img src="assets/imagenes/logo.png" alt="Logo" id="logo"></a>
+            </div>
+            <hr class="linea-separadora">
             <nav>
                 <ul>
-                    <li><a href="index.html"><img src="assets/imagenes/logo.png" alt="Logo" id="logo"></a></li>
                     <li><a href="historia.html">Historia</a></li>
                     <li><a href="#">Características</a></li>
                     <li><a href="razas.html">Razas</a></li>
@@ -21,34 +24,54 @@
                 </ul>
             </nav>
         </header>
+
         <hr class="linea-separadora">
+
         <main>
-            <h1>REGISTRO</h1>
-            <form action="" method="">
-                <label for="nombres">Nombres: </label>
-                <input id="nombres" type="text" name="nombres"><br><br>
+            <div id="contenedor">           
 
-                <label for="apellidos">Apellidos: </label>
-                <input id="apellidos" type="text" name="apellidos"><br><br>
+                <div id="contenedor-form">
 
-                <label for="contra">Contraseña: </label>
-                <input id="contra" type="password" name="password"><br><br>
+                    <h1>REGISTRO</h1>
+                    
+                    <form action="" method="get">
+                        <label for="nombres">Nombres: </label>
+                        <input id="nombres" type="text" name="nombres" placeholder="Ingrese sus nombres" required><br><br>
+        
+                        <label for="apellidos">Apellidos: </label>
+                        <input id="apellidos" type="text" name="apellidos" placeholder="Ingrese sus apellidos" required><br><br>
+        
+                        <label for="contra">Contraseña: </label>
+                        <input id="contra" type="password" name="password" placeholder="Ingrese su contraseña" minlength="5" required><br><br>
 
-                Sexo:<br>
-                <label for="M">M: </label>
-                <input id="M" type="radio" name="sexo" value="M">
+                        <label for="rep-contra">Repetir contraseña: </label>
+                        <input id="rep-contra" type="password" name="rep-password" placeholder="Ingrese su contraseña" minlength="5" required><br><br>
+        
+                        <label for="correo">Correo: </label>
+                        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required><br><br>
+    
+                        <label for="fecha">Fecha de Nacimiento: </label>
+                        <input id="fecha" type="date" name="fecha-nacimiento"><br><br>
 
-                <label for="F">F: </label>
-                <input id="F" type="radio" name="sexo" value="F"><br><br>
+                        Sexo:
+                        <input id="M" type="radio" name="sexo" value="M">
+                        <label for="M">M </label>
+        
+                        <input id="F" type="radio" name="sexo" value="F">
+                        <label for="F">F </label><br><br>
+    
+                        <button id="boton-registrar" type="submit">Registrarse</button>
+        
+                    </form>
+                </div>
                 
-                <button tyep="submit">Registrarse</button>
-
-
-            </form>
+            </div>
         </main>
+
         <hr class="linea-separadora">
+
         <footer>
-            <p>Derechos reservador &copy; 2023 "MIAU ASÍ ES"</p>
+            <p>Derechos reservados &copy; 2023 "MIAU ASÍ ES"</p>
         </footer>
     </body>
 </html>
