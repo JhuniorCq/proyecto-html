@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" type="text/css" href="registro.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="encabezado">
+            <div id="contenedor-logo">
+                <a href="index.html"><img src="assets/imagenes/logo.png" alt="Logo" id="logo"></a>
+            </div>
+            <hr class="linea-separadora">
+            <nav>
+                <ul>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="caracteristicas.html">Características</a></li>
+                    <li><a href="razas.html">Razas</a></li>
+                    <li><a href="alimentacion.html">Alimentación</a></li>
+                    <li><a href="personalidades.html">Personalidades</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="registro.html" class="active">Registrate</a></li>
+                    <li><a href="inicio-sesion.html">Inicia Sesión</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr class="linea-separadora">
+
+        <main>
+            <div id="contenedor">
+                
+                <div id="contenedor-gato-registro">
+                    <img id="gato-registro" src="assets/imagenes/gato-registro.png" alt="Gato">
+                </div><br>
+                    
+                <div id="contenedor-form">
+
+                    <h1>REGISTRO</h1>
+                    
+                    <form action="" method="get">
+                        <label for="nombres">Nombres: </label>
+                        <input id="nombres" type="text" name="nombres" placeholder="Ingrese sus nombres" required><br><br>
+        
+                        <label for="apellidos">Apellidos: </label>
+                        <input id="apellidos" type="text" name="apellidos" placeholder="Ingrese sus apellidos" required><br><br>
+        
+                        <label for="contra">Contraseña: </label>
+                        <input id="contra" type="password" name="password" placeholder="Ingrese su contraseña" minlength="5" required><br><br>
+
+                        <label for="rep-contra">Repetir contraseña: </label>
+                        <input id="rep-contra" type="password" name="rep-password" placeholder="Ingrese su contraseña" minlength="5" required><br><br>
+        
+                        <label for="correo">Correo: </label>
+                        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required><br><br>
+    
+                        <label for="fecha">Fecha de Nacimiento: </label>
+                        <input id="fecha" type="date" name="fecha-nacimiento"><br><br>
+
+                        Sexo:
+                        <input id="M" type="radio" name="sexo" value="M">
+                        <label for="M">M </label>
+        
+                        <input id="F" type="radio" name="sexo" value="F">
+                        <label for="F">F </label><br><br>
+    
+                        <button id="boton-registrar" type="submit">Registrarse</button>
+        
+                    </form>
+                </div>
+                
+            </div>
+        </main>
+
+        <hr class="linea-separadora">
+
+        <footer>
+            <p>Derechos reservados &copy; 2023 "MIAU ASÍ ES"</p>
+        </footer>
+    </body>
+</html>

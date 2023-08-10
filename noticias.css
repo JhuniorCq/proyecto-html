@@ -1,0 +1,112 @@
+body {
+    font-family: 'Borel', cursive;
+    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236)); /*Degradar un color*/
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado {
+    text-align: center;
+}
+
+#encabezado ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; /*Elimina las viñetas o números de los elementos de una lista ordenada o desordenada*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;/*Oculta el contenido que vaya más allá de los límites de su contenedor, en lugar de mostrar barras de desplazamiento para acceder al contenido adicional*/
+    background-color: #333;
+}
+
+#encabezado li {
+    width: 100%;
+    /*float: left;
+    Hace que el elemento de vaya a la izquierda de su contenedor y los elementos que son aledaños a él flotarán a su alrededor.Hace que los elementos que la tengan se vayan a la izquierda uno al lado del otro y formen una línea horizontal en la medida que haya espacio disponible. (Técnica usada antes de la popularización de enfoques como Flexbox o CSS grid)*/
+}
+
+#encabezado li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;/*Elimina decoraciones predeterminadas, como subrayados, líneas sobre el texto y efectos de tachado. (Se suele usar en los elementos <a></a>)*/
+}
+
+#contenedor-logo {
+    background-color: #333;
+}
+
+#contenedor-logo:hover{
+    background-color: #111;
+}
+
+#logo {
+    padding: 14px 16px;
+    width: 150px;
+}
+
+#encabezado li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #92a4ff;
+}
+
+/*De acá para arriba*/
+
+#contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 200px;
+}
+
+#contenedor h1 {
+    text-align: center;
+    color: #FF69B4;
+}
+
+.noticias {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.imagen {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+.noticias h2 {
+    color: #723185;
+}
+
+
+/*De acá para abajo*/
+.linea-separadora {
+    margin: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #111;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    /*clear:both;   Se utiliza para "ignorar" el comportamiento de elementos flotantes que estén antes de él*/
+}
+
+footer p {
+    margin: 31px;
+}

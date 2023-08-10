@@ -1,0 +1,97 @@
+body {
+    font-family: 'Borel', cursive;
+    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236)); /*Degradar un color*/
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado {
+    text-align: center;
+}
+
+#contenedor-logo {
+    background-color: #333;
+}
+
+#contenedor-logo:hover{
+    background-color: #111;
+}
+
+#logo {
+    padding: 14px 16px;
+    width: 150px;
+}
+#logo {
+    width: 150px;
+}
+
+#encabezado li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*De acá para arriba*/
+
+#contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+#menu {
+    display: inline-block;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #C0C0C0;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 30px 30px 40px 30px;
+}
+
+#menu h1 {
+    border-bottom: solid;
+    border-color: #C0C0C0;
+    border-width: 1px;
+    padding-bottom: 10px;
+}
+
+#opciones {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.boton {
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Borel', cursive;
+}
+
+.boton:hover {
+    background-color: black;
+}
+
+
+/*De acá para abajo*/
+.linea-separadora {
+    margin: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #111;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    /*clear:both;   Se utiliza para "ignorar" el comportamiento de elementos flotantes que estén antes de él*/
+}
+
+footer p {
+    margin: 31px;
+}
