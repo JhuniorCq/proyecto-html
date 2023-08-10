@@ -57,11 +57,38 @@ body {
 
 /*De acá para arriba*/
 
+#contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 200px;
+}
 
+#contenedor h1 {
+    text-align: center;
+    color: #FF69B4;
+}
 
+.noticias {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 30px;
+}
 
+.imagen {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+}
 
-
+.noticias h2 {
+    color: #723185;
+}
 
 
 /*De acá para abajo*/
